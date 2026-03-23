@@ -12,14 +12,10 @@ Wei-Hung's developer toolkit for Claude Code — productivity skills for daily r
 
 ## Installation
 
-```bash
-claude /install weihung-tools
+In Claude Code, run:
+
 ```
-
-Or install locally:
-
-```bash
-claude --plugin-dir /path/to/weihung-tools
+/install weihung0831/weihung-tools
 ```
 
 ## Usage
