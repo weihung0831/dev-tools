@@ -1,14 +1,26 @@
 # dev-tools
 
-Wei-Hung's developer toolkit for Claude Code — productivity skills for daily reports, README generation, and spec analysis. Supports both English and Traditional Chinese triggers.
+A Claude Code plugin marketplace by [weihung0831](https://github.com/weihung0831) — curated developer productivity skills for project documentation and workflow automation.
 
-## Plugins
+## Available Plugins
 
-| Plugin | Trigger | Description |
-|--------|---------|-------------|
-| `daily-report` | "daily report", "work summary", "today's progress" | Generate daily work progress reports from git history |
-| `readme-updater` | "update readme", "generate readme", "sync readme" | Auto-generate or update README.md from codebase analysis |
-| `spec-analyzer` | "analyze spec", "extract requirements", "spec breakdown" | Analyze spec documents, extract DO/DON'T lists and test cases |
+### daily-report
+
+Generate structured daily progress reports from git commit history. Automatically categorizes changes by conventional commit types and summarizes work completed, in-progress items, and notable changes.
+
+**Triggers:** `"daily report"` · `"work summary"` · `"today's progress"`
+
+### readme-updater
+
+Analyze your codebase and auto-generate or update `README.md` with accurate tech stack, project structure, scripts, and architecture overview. Preserves existing badges, screenshots, and custom sections.
+
+**Triggers:** `"update readme"` · `"generate readme"` · `"sync readme"`
+
+### spec-analyzer
+
+Parse spec and design documents to extract actionable **DO/DON'T checklists** and **test-case-driven verification metrics**, grouped by functional area with priority levels (P0/P1/P2).
+
+**Triggers:** `"analyze spec"` · `"extract requirements"` · `"spec breakdown"`
 
 ## Installation
 
@@ -18,7 +30,7 @@ Add the marketplace:
 /plugin marketplace add weihung0831/dev-tools
 ```
 
-Install individual plugins:
+Install plugins individually:
 
 ```
 /plugin install dev-tools@daily-report
@@ -26,37 +38,9 @@ Install individual plugins:
 /plugin install dev-tools@spec-analyzer
 ```
 
-## Usage
+## Language Support
 
-Once installed, skills activate automatically when you use their trigger phrases:
-
-```
-> daily report           # Generates daily progress report from git
-> update readme          # Updates README.md from codebase
-> analyze spec ./spec.md # Analyzes spec document
-```
-
-## Structure
-
-```
-dev-tools/
-├── .claude-plugin/
-│   └── marketplace.json
-└── plugins/
-    ├── daily-report/
-    │   ├── .claude-plugin/plugin.json
-    │   └── skills/daily-report/SKILL.md
-    ├── readme-updater/
-    │   ├── .claude-plugin/plugin.json
-    │   └── skills/readme-updater/
-    │       ├── SKILL.md
-    │       └── references/section-templates.md
-    └── spec-analyzer/
-        ├── .claude-plugin/plugin.json
-        └── skills/spec-analyzer/
-            ├── SKILL.md
-            └── references/output-template.md
-```
+All plugins support both **English** and **Traditional Chinese** triggers and output.
 
 ## License
 
