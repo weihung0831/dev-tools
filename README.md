@@ -1,28 +1,32 @@
-# dev-tools
+# 🛠️ dev-tools
 
-A Claude Code plugin marketplace by [weihung0831](https://github.com/weihung0831) — curated developer productivity skills for project documentation and workflow automation.
+> A Claude Code plugin marketplace by [weihung0831](https://github.com/weihung0831) — curated developer productivity skills for project documentation and workflow automation.
 
-## Available Plugins
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Plugins](https://img.shields.io/badge/Plugins-3-green.svg)](#available-plugins)
+[![Claude Code](https://img.shields.io/badge/Claude_Code-Plugin-blueviolet.svg)](https://claude.ai/code)
 
-### daily-report
+## 📦 Available Plugins
+
+### 📋 daily-report
 
 Generate structured daily progress reports from git commit history. Automatically categorizes changes by conventional commit types and summarizes work completed, in-progress items, and notable changes.
 
-**Triggers:** `"daily report"` · `"work summary"` · `"today's progress"`
+> **Triggers:** `"daily report"` · `"work summary"` · `"today's progress"`
 
-### readme-updater
+### 📝 readme-updater
 
 Analyze your codebase and auto-generate or update `README.md` with accurate tech stack, project structure, scripts, and architecture overview. Preserves existing badges, screenshots, and custom sections.
 
-**Triggers:** `"update readme"` · `"generate readme"` · `"sync readme"`
+> **Triggers:** `"update readme"` · `"generate readme"` · `"sync readme"`
 
-### spec-analyzer
+### 🔍 spec-analyzer
 
 Parse spec and design documents to extract actionable **DO/DON'T checklists** and **test-case-driven verification metrics**, grouped by functional area with priority levels (P0/P1/P2).
 
-**Triggers:** `"analyze spec"` · `"extract requirements"` · `"spec breakdown"`
+> **Triggers:** `"analyze spec"` · `"extract requirements"` · `"spec breakdown"`
 
-## Installation
+## 🚀 Installation
 
 Add the marketplace:
 
@@ -38,10 +42,10 @@ Install plugins individually:
 /plugin install dev-tools@spec-analyzer
 ```
 
-## Language Support
+## 🌐 Language Support
 
 All plugins support both **English** and **Traditional Chinese** triggers and output.
 
-## License
+## 📄 License
 
 MIT
