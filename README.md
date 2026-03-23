@@ -1,4 +1,4 @@
-# weihung-tools
+# dev-tools
 
 Wei-Hung's developer toolkit for Claude Code — productivity skills for daily reports, README generation, and spec analysis. Supports both English and Traditional Chinese triggers.
 
@@ -15,15 +15,15 @@ Wei-Hung's developer toolkit for Claude Code — productivity skills for daily r
 Add the marketplace:
 
 ```
-/plugin marketplace add weihung0831/weihung-tools
+/plugin marketplace add weihung0831/dev-tools
 ```
 
 Install individual plugins:
 
 ```
-/plugin install weihung-tools@daily-report
-/plugin install weihung-tools@readme-updater
-/plugin install weihung-tools@spec-analyzer
+/plugin install dev-tools@daily-report
+/plugin install dev-tools@readme-updater
+/plugin install dev-tools@spec-analyzer
 ```
 
 ## Usage
@@ -39,7 +39,7 @@ Once installed, skills activate automatically when you use their trigger phrases
 ## Structure
 
 ```
-weihung-tools/
+dev-tools/
 ├── .claude-plugin/
 │   └── marketplace.json
 └── plugins/
