@@ -1,0 +1,10 @@
+{
+  "name": "weihung-tools",
+  "version": "1.0.0",
+  "description": "Wei-Hung's developer toolkit — daily reports, README generation, and spec analysis for Traditional Chinese workflows",
+  "author": {
+    "name": "Wei-Hung"
+  },
+  "license": "MIT",
+  "keywords": ["developer-tools", "daily-report", "readme", "spec-analysis", "traditional-chinese"]
+}
