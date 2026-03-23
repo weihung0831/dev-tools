@@ -1,103 +1,103 @@
-# 輸出模板
+# Output Template
 
-分析結果依照以下格式產出。
+Analysis results follow this format.
 
-## 模板
+## Template
 
 ```markdown
-# Spec 分析：{spec 標題}
+# Spec Analysis: {spec title}
 
-> **來源**：{spec 檔案路徑}
-> **日期**：{spec 日期}
-> **模組**：{spec 模組名稱}
-> **分析時間**：{當前日期時間}
+> **Source**: {spec file path}
+> **Date**: {spec date}
+> **Module**: {spec module name}
+> **Analyzed at**: {current datetime}
 
 ---
 
-## DO（要做）
+## DO
 
-### 資料層
-- [ ] {具體任務：建立 migration / model / factory / seeder}
-- [ ] {含檔案路徑，如：`modules/Core/app/Models/Xxx.php`}
+### Data Layer
+- [ ] {Specific task: create migration / model / factory / seeder}
+- [ ] {Include file path, e.g.: `modules/Core/app/Models/Xxx.php`}
 
-### 後端邏輯
+### Backend Logic
 - [ ] {Service / Controller / FormRequest / Command}
 - [ ] {Trait / Observer / Scope / Policy}
 
-### API 路由
-- [ ] {路由定義，含 HTTP method + path}
+### API Routes
+- [ ] {Route definition with HTTP method + path}
 
-### 前端
-- [ ] {View / Component / JS 整合}
+### Frontend
+- [ ] {View / Component / JS integration}
 
-### 整合與修改
-- [ ] {需修改的既有檔案，含修改說明}
+### Integration & Modifications
+- [ ] {Existing files to modify, with description of changes}
 
-### 其他
-- [ ] {排程、config、依賴安裝等}
-
----
-
-## DON'T（不做）
-
-### 明確排除（來自「不在範圍」章節）
-- {排除項目} — 來源：§{章節編號} {章節名稱}
-
-### 約束與限制（來自「注意事項」等章節）
-- {限制條件} — 來源：§{章節編號} {章節名稱}
-
-### 反模式（來自「排除方案」等章節）
-- {不應採用的做法及原因} — 來源：§{章節編號} {章節名稱}
+### Other
+- [ ] {Scheduled tasks, config, dependency installation, etc.}
 
 ---
 
-## 驗證指標（測試案例）
+## DON'T
 
-### {功能區域 1}（如：CRUD 操作）
+### Explicit Exclusions (from "Out of Scope" sections)
+- {Excluded item} — Source: §{section number} {section name}
 
-| # | 測試場景 | 預期結果 | 優先級 |
-|---|---------|---------|-------|
-| 1 | {具體操作描述} | {預期行為/回傳值} | P0/P1/P2 |
+### Constraints & Limitations (from "Caveats" etc.)
+- {Constraint} — Source: §{section number} {section name}
+
+### Anti-patterns (from "Excluded Approaches" etc.)
+- {Approach to avoid and reason} — Source: §{section number} {section name}
+
+---
+
+## Verification Metrics (Test Cases)
+
+### {Functional Area 1} (e.g.: CRUD Operations)
+
+| # | Test Scenario | Expected Result | Priority |
+|---|--------------|-----------------|----------|
+| 1 | {Specific operation description} | {Expected behavior/return value} | P0/P1/P2 |
 | 2 | ... | ... | ... |
 
-### {功能區域 2}（如：權限過濾）
+### {Functional Area 2} (e.g.: Permission Filtering)
 
-| # | 測試場景 | 預期結果 | 優先級 |
-|---|---------|---------|-------|
+| # | Test Scenario | Expected Result | Priority |
+|---|--------------|-----------------|----------|
 | 1 | ... | ... | ... |
 
-### {功能區域 N}
+### {Functional Area N}
 
-| # | 測試場景 | 預期結果 | 優先級 |
-|---|---------|---------|-------|
+| # | Test Scenario | Expected Result | Priority |
+|---|--------------|-----------------|----------|
 | 1 | ... | ... | ... |
 
 ---
 
-## 摘要
+## Summary
 
-| 類別 | 數量 |
-|------|------|
-| DO 項目 | {X} |
-| DON'T 項目 | {Y} |
-| 測試案例 | {Z} |
-| P0 關鍵測試 | {N} |
+| Category | Count |
+|----------|-------|
+| DO items | {X} |
+| DON'T items | {Y} |
+| Test cases | {Z} |
+| P0 critical tests | {N} |
 
-### 風險區域
-- {DON'T 約束最密集的功能區域}
+### Risk Areas
+- {Functional areas with the highest density of DON'T constraints}
 
-### 建議實作順序
-1. {依賴最少、被依賴最多的項目優先}
+### Suggested Implementation Order
+1. {Items with fewest dependencies and most dependents first}
 2. ...
 
-### 待釐清事項
-- {spec 中模糊或缺失的部分，需與 spec 作者確認}
+### Items Needing Clarification
+- {Ambiguous or missing parts in the spec that need confirmation from spec author}
 ```
 
-## 使用說明
+## Usage Notes
 
-- DO 子分類（資料層、後端、API、前端等）依 spec 實際內容增減，空的分類省略
-- DON'T 每項必須標註來源章節，方便回溯
-- 驗證按功能區域分組，非按 spec 章節
-- 優先級定義：P0=必須通過才能上線、P1=重要但可暫緩、P2=nice-to-have
-- 待釐清事項列於最末，標記需要誰確認
+- DO subcategories (Data Layer, Backend, API, Frontend, etc.) should be added/removed based on actual spec content; omit empty categories
+- Each DON'T item must reference its source section for traceability
+- Verification is grouped by functional area, not by spec section
+- Priority definitions: P0 = must pass before release, P1 = important but can defer, P2 = nice-to-have
+- Items needing clarification are listed at the end, noting who should confirm

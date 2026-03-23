@@ -1,23 +1,23 @@
-# README 區塊模板
+# README Section Templates
 
-## 專案標題與描述
+## Project Title & Description
 
 ```markdown
-# {專案名稱}
+# {Project Name}
 
-{從 package manifest 的 description 或現有 README 第一段取得，1-2 句}
+{Taken from package manifest description or existing README first paragraph, 1-2 sentences}
 ```
 
-## 功能特色
+## Features
 
 ```markdown
 ## Features
 
-- {從 components/routes/commands 推導的功能列表}
-- {每項功能一行，簡短描述}
+- {Feature list derived from components/routes/commands}
+- {One line per feature, brief description}
 ```
 
-## 技術棧表格
+## Tech Stack Table
 
 ```markdown
 ## Tech Stack
@@ -33,75 +33,75 @@
 | Build | Vite |
 ```
 
-## 快速開始
+## Getting Started
 
 ```markdown
 ## Getting Started
 
 ### Prerequisites
 
-- Node.js >= {版本}
-- Rust >= {版本}（若適用）
-- {其他必要工具}
+- Node.js >= {version}
+- Rust >= {version} (if applicable)
+- {Other required tools}
 
 ### Installation
 
 \`\`\`bash
-{從 manifest scripts 取得安裝指令}
+{Install commands from manifest scripts}
 \`\`\`
 
 ### Development
 
 \`\`\`bash
-{開發伺服器指令}
+{Dev server command}
 \`\`\`
 ```
 
-## 專案結構
+## Project Structure
 
 ```markdown
 ## Project Structure
 
 \`\`\`
 src/
-├── components/    # {簡短說明}
-├── hooks/         # {簡短說明}
-├── stores/        # {簡短說明}
-├── routes/        # {簡短說明}
+├── components/    # {Brief description}
+├── hooks/         # {Brief description}
+├── stores/        # {Brief description}
+├── routes/        # {Brief description}
 └── ...
 \`\`\`
 ```
 
-保持結構樹深度 2 層，附簡短註解。
+Keep structure tree to 2 levels deep with brief annotations.
 
-## 指令表格
+## Scripts Table
 
 ```markdown
 ## Scripts
 
 | Command | Description |
 |---------|-------------|
-| `npm run dev` | 啟動開發伺服器 |
-| `npm run build` | 建置正式版本 |
-| `npm run test` | 執行測試 |
-| `npm run lint` | 程式碼檢查 |
+| `npm run dev` | Start development server |
+| `npm run build` | Build for production |
+| `npm run test` | Run tests |
+| `npm run lint` | Lint code |
 ```
 
-從 `package.json` scripts、`Makefile`、`Cargo.toml` 等取得。
+Sourced from `package.json` scripts, `Makefile`, `Cargo.toml`, etc.
 
-## 架構概覽
+## Architecture Overview
 
 ```markdown
 ## Architecture
 
-{僅在 CLAUDE.md 或 docs/ 中有架構資訊時才產生}
-{高層級描述，2-3 句}
+{Only generate when architecture info exists in CLAUDE.md or docs/}
+{High-level description, 2-3 sentences}
 ```
 
-## 選用區塊（保留現有的即可）
+## Optional Sections (Preserve Existing)
 
-- **License** — 保留原文
-- **Contributing** — 保留原文
-- **Badges/Shields** — 保留原文
-- **Screenshots** — 保留原文
-- **Acknowledgments** — 保留原文
+- **License** — Preserve as-is
+- **Contributing** — Preserve as-is
+- **Badges/Shields** — Preserve as-is
+- **Screenshots** — Preserve as-is
+- **Acknowledgments** — Preserve as-is
