@@ -1,25 +1,25 @@
 # weihung-tools
 
-Wei-Hung's developer toolkit for Claude Code — a collection of productivity skills for project management and documentation workflows, optimized for Traditional Chinese output.
+Wei-Hung's developer toolkit for Claude Code — productivity skills for daily reports, README generation, and spec analysis. Supports both English and Traditional Chinese triggers.
 
 ## Skills
 
 | Skill | Trigger | Description |
 |-------|---------|-------------|
-| `daily-report` | 「今日進度」「每日回報」「daily report」 | Generate daily work progress reports from git history |
-| `readme-updater` | 「更新 readme」「產生 readme」 | Auto-generate or update README.md from codebase analysis |
-| `spec-analyzer` | 「分析 spec」「萃取需求」 | Analyze spec documents, extract DO/DON'T lists and test cases |
+| `daily-report` | "daily report", "work summary", "today's progress" | Generate daily work progress reports from git history |
+| `readme-updater` | "update readme", "generate readme", "sync readme" | Auto-generate or update README.md from codebase analysis |
+| `spec-analyzer` | "analyze spec", "extract requirements", "spec breakdown" | Analyze spec documents, extract DO/DON'T lists and test cases |
 
 ## Installation
 
 ```bash
-claude --plugin-dir /path/to/weihung-tools
+claude /install weihung-tools
 ```
 
-Or install from marketplace:
+Or install locally:
 
 ```bash
-claude /install weihung-tools
+claude --plugin-dir /path/to/weihung-tools
 ```
 
 ## Usage
@@ -27,9 +27,9 @@ claude /install weihung-tools
 Once installed, skills activate automatically when you use their trigger phrases:
 
 ```
-> 今日進度          # Generates daily progress report
-> 更新 readme       # Updates README.md from codebase
-> 分析 spec ./spec.md  # Analyzes spec document
+> daily report           # Generates daily progress report from git
+> update readme          # Updates README.md from codebase
+> analyze spec ./spec.md # Analyzes spec document
 ```
 
 ## Structure
