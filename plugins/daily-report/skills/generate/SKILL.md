@@ -1,5 +1,5 @@
 ---
-name: daily-report
+name: generate
 description: Generate daily work progress reports from git history. Triggers when user says "daily report", "today's progress", "work summary", "what did I do today", or needs to summarize the day's work output before end of day.
 version: 1.0.1
 ---

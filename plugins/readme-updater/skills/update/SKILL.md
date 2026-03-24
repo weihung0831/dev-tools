@@ -1,5 +1,5 @@
 ---
-name: readme-updater
+name: update
 description: Auto-generate or update README.md from codebase analysis. Triggers when user says "update readme", "generate readme", "sync readme", or when README.md is outdated after significant code changes.
 version: 1.0.1
 ---

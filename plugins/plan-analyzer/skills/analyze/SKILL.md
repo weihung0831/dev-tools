@@ -1,5 +1,5 @@
 ---
-name: plan-analyzer
+name: analyze
 description: Validate and standardize plan files after writing-plans produces them. Accepts single file or directory (plan.md + phase-XX.md). Triggers when user says "analyze plan", "standardize plan", "validate plan", "check plan format", "整理 plan", or after writing-plans completes.
 ---
 
