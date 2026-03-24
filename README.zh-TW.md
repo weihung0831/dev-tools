@@ -5,7 +5,7 @@
 > 由 [weihung0831](https://github.com/weihung0831) 維護的 Claude Code 插件市集 — 精選開發者生產力工具，涵蓋專案文件與工作流程自動化。
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Plugins](https://img.shields.io/badge/Plugins-3-green.svg)](#可用插件)
+[![Plugins](https://img.shields.io/badge/Plugins-4-green.svg)](#可用插件)
 [![Claude Code](https://img.shields.io/badge/Claude_Code-Plugin-blueviolet.svg)](https://claude.ai/code)
 
 ## 📦 可用插件
@@ -21,6 +21,12 @@
 分析程式碼庫，自動產生或更新 `README.md`，包含準確的技術棧、專案結構、指令與架構概覽。保留現有的徽章、截圖與自訂區塊。
 
 > **觸發詞：** `「更新 readme」` · `「產生 readme」` · `「sync readme」`
+
+### 📐 plan-analyzer
+
+驗證並標準化計畫檔案（`plan.md` + `phase-XX.md`）。檢查必要區段、正確排序、狀態值與 E2E 測試情境格式，輸出修正摘要並自動修復。
+
+> **觸發詞：** `「分析 plan」` · `「驗證計畫」` · `「整理 plan」` · `「檢查計畫格式」`
 
 ### 🔍 spec-analyzer
 
@@ -41,6 +47,7 @@
 ```
 /plugin install dev-tools@daily-report
 /plugin install dev-tools@readme-updater
+/plugin install dev-tools@plan-analyzer
 /plugin install dev-tools@spec-analyzer
 ```
 
