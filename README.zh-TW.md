@@ -2,13 +2,13 @@
 
 # 🛠️ dev-tools
 
-> 由 [weihung0831](https://github.com/weihung0831) 維護的 Claude Code 插件 — 開發者生產力工具，涵蓋專案文件與工作流程自動化。
+> 由 [weihung0831](https://github.com/weihung0831) 維護的 Claude Code 插件市集 — 精選開發者生產力工具，涵蓋專案文件與工作流程自動化。
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Skills](https://img.shields.io/badge/Skills-4-green.svg)](#技能)
+[![Plugins](https://img.shields.io/badge/Plugins-4-green.svg)](#可用插件)
 [![Claude Code](https://img.shields.io/badge/Claude_Code-Plugin-blueviolet.svg)](https://claude.ai/code)
 
-## 📦 技能
+## 📦 可用插件
 
 ### 📋 daily-report
 
@@ -36,13 +36,24 @@
 
 ## 🚀 安裝方式
 
+新增市集：
+
 ```
-/plugin install weihung0831/dev-tools
+/plugin marketplace add weihung0831/dev-tools
+```
+
+個別安裝插件：
+
+```
+/plugin install dev-tools@daily-report
+/plugin install dev-tools@readme-updater
+/plugin install dev-tools@plan-analyzer
+/plugin install dev-tools@spec-analyzer
 ```
 
 ## 🌐 語言支援
 
-所有技能皆支援**英文**與**繁體中文**的觸發詞與輸出。
+所有插件皆支援**英文**與**繁體中文**的觸發詞與輸出。
 
 ## 📄 授權
 

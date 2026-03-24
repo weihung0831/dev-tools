@@ -1,0 +1,44 @@
+{
+  "name": "dev-tools",
+  "owner": {
+    "name": "weihung0831"
+  },
+  "metadata": {
+    "description": "Wei-Hung's developer toolkit — daily reports, README generation, plan validation, and spec analysis skills",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "daily-report",
+      "description": "Generate daily work progress reports from git history",
+      "version": "1.0.1",
+      "source": "./plugins/daily-report",
+      "author": { "name": "Wei-Hung" },
+      "license": "MIT"
+    },
+    {
+      "name": "readme-updater",
+      "description": "Auto-generate or update README.md from codebase analysis",
+      "version": "1.0.1",
+      "source": "./plugins/readme-updater",
+      "author": { "name": "Wei-Hung" },
+      "license": "MIT"
+    },
+    {
+      "name": "plan-analyzer",
+      "description": "Validate and standardize plan files after plan creation",
+      "version": "1.1.0",
+      "source": "./plugins/plan-analyzer",
+      "author": { "name": "Wei-Hung" },
+      "license": "MIT"
+    },
+    {
+      "name": "spec-analyzer",
+      "description": "Analyze spec documents, extract DO/DON'T lists and test cases",
+      "version": "1.0.1",
+      "source": "./plugins/spec-analyzer",
+      "author": { "name": "Wei-Hung" },
+      "license": "MIT"
+    }
+  ]
+}

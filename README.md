@@ -2,13 +2,13 @@
 
 # 🛠️ dev-tools
 
-> A Claude Code plugin by [weihung0831](https://github.com/weihung0831) — developer productivity skills for project documentation and workflow automation.
+> A Claude Code plugin marketplace by [weihung0831](https://github.com/weihung0831) — curated developer productivity skills for project documentation and workflow automation.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Skills](https://img.shields.io/badge/Skills-4-green.svg)](#skills)
+[![Plugins](https://img.shields.io/badge/Plugins-4-green.svg)](#available-plugins)
 [![Claude Code](https://img.shields.io/badge/Claude_Code-Plugin-blueviolet.svg)](https://claude.ai/code)
 
-## 📦 Skills
+## 📦 Available Plugins
 
 ### 📋 daily-report
 
@@ -36,13 +36,24 @@ Parse spec and design documents to extract actionable **DO/DON'T checklists** an
 
 ## 🚀 Installation
 
+Add the marketplace:
+
 ```
-/plugin install weihung0831/dev-tools
+/plugin marketplace add weihung0831/dev-tools
+```
+
+Install plugins individually:
+
+```
+/plugin install dev-tools@daily-report
+/plugin install dev-tools@readme-updater
+/plugin install dev-tools@plan-analyzer
+/plugin install dev-tools@spec-analyzer
 ```
 
 ## 🌐 Language Support
 
-All skills support both **English** and **Traditional Chinese** triggers and output.
+All plugins support both **English** and **Traditional Chinese** triggers and output.
 
 ## 📄 License
 
