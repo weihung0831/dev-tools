@@ -25,18 +25,10 @@
       "license": "MIT"
     },
     {
-      "name": "plan-analyzer",
-      "description": "Validate and standardize plan files after plan creation",
+      "name": "analyzer",
+      "description": "Analyze specs and validate plans",
       "version": "1.1.0",
-      "source": "./plugins/plan-analyzer",
-      "author": { "name": "Wei-Hung" },
-      "license": "MIT"
-    },
-    {
-      "name": "spec-analyzer",
-      "description": "Analyze spec documents, extract DO/DON'T lists and test cases",
-      "version": "1.0.1",
-      "source": "./plugins/spec-analyzer",
+      "source": "./plugins/analyzer",
       "author": { "name": "Wei-Hung" },
       "license": "MIT"
     }

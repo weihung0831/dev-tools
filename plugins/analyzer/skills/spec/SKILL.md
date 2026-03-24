@@ -1,5 +1,5 @@
 ---
-name: analyze
+name: spec
 description: Analyze spec/design documents, extract DO/DON'T lists and test-case-driven verification metrics. Triggers when user says "analyze spec", "parse spec", "extract requirements", "spec breakdown", provides a spec or design document file path, or needs actionable implementation guidance from design documents.
 version: 1.0.1
 ---

@@ -1,8 +1,0 @@
-{
-  "name": "spec-analyzer",
-  "version": "1.0.1",
-  "description": "Analyze spec documents, extract DO/DON'T lists and test cases",
-  "author": {
-    "name": "Wei-Hung"
-  }
-}
