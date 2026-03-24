@@ -1,8 +1,0 @@
-{
-  "name": "readme-updater",
-  "version": "1.0.1",
-  "description": "Auto-generate or update README.md from codebase analysis",
-  "author": {
-    "name": "Wei-Hung"
-  }
-}

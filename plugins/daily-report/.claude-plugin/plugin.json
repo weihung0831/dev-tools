@@ -1,8 +1,0 @@
-{
-  "name": "daily-report",
-  "version": "1.0.1",
-  "description": "Generate daily work progress reports from git history",
-  "author": {
-    "name": "Wei-Hung"
-  }
-}
