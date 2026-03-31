@@ -1,8 +1,0 @@
-{
-  "name": "analyzer",
-  "version": "3.1.0",
-  "description": "Analyze specs, validate plans, measure coverage, update plan status, and archive documents",
-  "author": {
-    "name": "Wei-Hung"
-  }
-}

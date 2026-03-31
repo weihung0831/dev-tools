@@ -4,7 +4,7 @@
     "name": "weihung0831"
   },
   "metadata": {
-    "description": "Wei-Hung's developer toolkit — daily reports, README generation, plan validation, and spec analysis skills",
+    "description": "Wei-Hung's developer toolkit — daily reports and README generation skills",
     "pluginRoot": "./plugins"
   },
   "plugins": [
@@ -21,14 +21,6 @@
       "description": "Auto-generate or update README.md from codebase analysis",
       "version": "1.0.1",
       "source": "./plugins/readme-updater",
-      "author": { "name": "Wei-Hung" },
-      "license": "MIT"
-    },
-    {
-      "name": "analyzer",
-      "description": "Analyze specs and validate plans",
-      "version": "1.1.0",
-      "source": "./plugins/analyzer",
       "author": { "name": "Wei-Hung" },
       "license": "MIT"
     }

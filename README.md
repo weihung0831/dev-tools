@@ -5,7 +5,7 @@
 > A Claude Code plugin marketplace by [weihung0831](https://github.com/weihung0831) — curated developer productivity skills for project documentation and workflow automation.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Plugins](https://img.shields.io/badge/Plugins-3-green.svg)](#available-plugins)
+[![Plugins](https://img.shields.io/badge/Plugins-2-green.svg)](#available-plugins)
 [![Claude Code](https://img.shields.io/badge/Claude_Code-Plugin-blueviolet.svg)](https://claude.ai/code)
 
 ## 📦 Available Plugins
@@ -26,17 +26,6 @@ Analyze your codebase and auto-generate or update `README.md` with accurate tech
 
 > **Triggers:** `"update readme"` · `"generate readme"` · `"sync readme"`
 
-### 🔍 analyzer
-
-Five skills in one plugin:
-
-- **`analyzer:validate-spec`** — Parse spec and design documents to extract actionable **DO/DON'T checklists** and **test-case-driven verification metrics**, grouped by functional area with priority levels (P0/P1/P2).
-- **`analyzer:validate-plan`** — Validate and standardize plan files (`plan.md` + `phase-XX.md`) after plan creation. Checks required sections, correct ordering, status values, and E2E test scenario format.
-- **`analyzer:plan-coverage`** — Analyze plan implementation coverage with 4 metrics: **phase completion**, **todo progress**, **file existence**, and **success criteria** quality. Outputs a weighted coverage report.
-- **`analyzer:update-plan-status`** — Sync plan todo checkboxes and phase statuses with actual implementation evidence. Checks file existence, git history, and file content to mark completed todos and update phase statuses automatically.
-- **`analyzer:archive-triage`** — Scan `plans/` and `docs/` directories, classify documents as **archive-ready** or **active** based on completion status, age, and references, then move confirmed items to `archive/` subdirectories.
-
-> **Triggers:** `"analyze spec"` · `"extract requirements"` · `"validate plan"` · `"check plan format"` · `"plan coverage"` · `"覆蓋率"` · `"update plan status"` · `"sync plan"` · `"archive triage"` · `"歸檔"`
 
 ## 🚀 Installation
 
@@ -51,7 +40,6 @@ Install plugins individually:
 ```
 /plugin install dev-tools@daily-report
 /plugin install dev-tools@readme-updater
-/plugin install dev-tools@analyzer
 ```
 
 ## 🌐 Language Support
